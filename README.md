@@ -14,7 +14,7 @@ Edit this page in Markdown, so it looks identical to this image; ![](README.png)
 
 Additional work which must be performed:
 1. You must have a github.com account (*duh*)
-2. To make your life easier, add your public key, so you have *SSH* access. To ensure you have it, I want to see **an image on this page** of you using `SSH -T git@github.com`, this will confirm you have SSH access. It needs to look like this: ![](ssh.png)
-3. You must clone this repository to your computer (school or personal). This repository will be where you turn in your homework.
+2. To make your life easier, [add your public key](./ssh.md), so you have *SSH* access. To ensure you have it, I want to see **an image on this page** of you using `SSH -T git@github.com`, this will confirm you have SSH access. It needs to look like this: ![](ssh.png)
+3. You must [clone this repository](./git.md) to your computer (school or personal). This repository will be where you turn in your homework.
 4. Once cloned and changes made, you will need to `stage -> commit -> push`, so I will be able to review your work.
 5. Add me as a collaborator and **keep your repository private.**
