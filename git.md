@@ -63,7 +63,7 @@ origin  git@github.com:studentname/CSCI11_SP26_Student.git (push)
    ```
 
    2. To **update** your work on GitHub:
-   - Be sure to use the week-specific folders in the ```student``` folder then commit and push to your repository using VS Code or CLI:
+   - Be sure to use the week-specific folders in the ```student``` folder then commit and push to your repository using VS Code Source Control or Terminal:
    ```bash
    git add -A # to add (stage) all of the changes
    git commit -m "adding my changes for week 5" # to commit your changes
