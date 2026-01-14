@@ -1,5 +1,6 @@
 # Github Documentation for CSCI11 Spring 2026
 
+
 ## Important
 Repositories for students to exchange homework with the instructor.
 
@@ -10,6 +11,64 @@ For *CSCI11 Spring 2026*, there are **two** repositories:
 ### PLEASE NOTE:
 1. **Please make sure your version of the student repository (*CSCI11...Student*) on GitHub is private and is accessible by only the instructor and you.**
 2. **Please do NOT make changes or add files to the *CSCI11...Instructor* folder, as this is where you will receive new versions of files from the instructor**
+
+## Installation
+
+### 1. Clone this repository
+
+1. Go to the [CSCI11_Sp26_Student](https://github.com/lkoepsel/CSCI11_Sp26_Student) on my github.
+2. Click on the Green Code button. *See green arrow.*
+3. CLick on the double boxes at the end of the "*git@github....*" *See blue arrow*.
+![](./static/doubleboxes.png). 
+4. In a terminal session in VS Code, enter `git clone ` and paste the address following the word *clone*, ensuring there is a space between *clone* and the address. Press *return*.
+5. Enter `cd CSCI11_Sp26_Student` to enter the directory.
+
+### 2. Connect your **local** repository to your **Github** repository.
+
+Perform the four commands below, **one by one**, ensuring there is **NOT** an error, before going to the next step:
+   1. Remove the original connection, if the result is "*error: No such remote: origin*", this is fine:
+```bash
+git remote remove origin
+```
+
+   2. Add the origin which will point to *your* GitHub account, so you will **need to change username**:
+
+```bash
+git remote add origin git@github.com:username/CSCI11_Sp26_Student.git
+```
+
+   3. Add the branch, *main*:
+```bash
+git branch -M main
+```
+
+   4. Push the local branch *main* to your Github repository:
+```bash
+git push -u origin main
+```
+#### Important: For Step 4 to be successful, two things must be true:
+1. You have successfully [added your public key](./ssh.md) to your settings on github. Confirm with `ssh -T git@github.com`
+2. Your origin must be correct. Confirm with `git remote -v` and it must respond with:
+```bash
+origin  git@github.com:studentname/CSCI11_SP26_Student.git (fetch)
+origin  git@github.com:studentname/CSCI11_SP26_Student.git (push)
+```
+
+## Ongoing Operations:
+
+### To get the latest assignment, in the CSCI11_Instructor folder
+   1. To **sync** with *lkoepsel* (or class) updates:
+   ```bash
+   git pull
+   ```
+
+   2. To **update** your work on GitHub:
+   - Be sure to use the week-specific folders in the ```student``` folder then commit and push to your repository using VS Code or CLI:
+   ```bash
+   git add -A # to add (stage) all of the changes
+   git commit -m "adding my changes for week 5" # to commit your changes
+   git push # to push your change to your repository on GitHub
+   ```
 
 ## Overview
 
@@ -64,60 +123,3 @@ CSCI11_Student/
 ```
 
 
-## Installation
-
-### 1. Clone this repository
-
-1. Go to the [CSCI11_Sp26_Student](https://github.com/lkoepsel/CSCI11_Sp26_Student) on my github.
-2. Click on the Green Code button. *See green arrow.*
-3. CLick on the double boxes at the end of the "*git@github....*" *See blue arrow*.
-![](doubleboxes.png). 
-4. In a terminal session in VS Code, enter `git clone ` and paste the address following the word *clone*, ensuring there is a space between *clone* and the address. Press *return*.
-5. Enter `cd CSCI11_Sp26_Student` to enter the directory.
-
-### 2. Connect your **local** repository to your **Github** repository.
-
-Perform the four commands below, **one by one**, ensuring there is **NOT** an error, before going to the next step:
-   1. Remove the original connection, if the result is "*error: No such remote: origin*", this is fine:
-```bash
-git remote remove origin
-```
-
-   2. Add the origin which will point to *your* GitHub account, so you will **need to change username**:
-
-```bash
-git remote add origin git@github.com:username/CSCI11_Sp26_Student.git
-```
-
-   3. Add the branch, *main*:
-```bash
-git branch -M main
-```
-
-   4. Push the local branch *main* to your Github repository:
-```bash
-git push -u origin main
-```
-#### Important: For Step 4 to be successful, two things must be true:
-1. You have successfully [added your public key](./ssh.md) to your settings on github. Confirm with `ssh -T git@github.com`
-2. Your origin must be correct. Confirm with `git remote -v` and it must respond with:
-```bash
-origin  git@github.com:studentname/CSCI11_SP26_Student.git (fetch)
-origin  git@github.com:studentname/CSCI11_SP26_Student.git (push)
-```
-
-## Ongoing Operations:
-
-### To get the latest assignment, in the CSCI11_Instructor folder
-   1. To **sync** with *lkoepsel* (or class) updates:
-   ```bash
-   git pull
-   ```
-
-   2. To **update** your work on GitHub:
-   - Be sure to use the week-specific folders in the ```student``` folder then commit and push to your repository using VS Code or CLI:
-   ```bash
-   git add -A # to add (stage) all of the changes
-   git commit -m "adding my changes for week 5" # to commit your changes
-   git push # to push your change to your repository on GitHub
-   ```

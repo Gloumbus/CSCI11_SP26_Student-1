@@ -72,19 +72,19 @@ ssh-ed25519 AAc923NzaC1lZDI1NTE5A12b98zR9T/aH+Fqge+cSZuNBIDQBIENXcmGjgMSDKdMOuRf
 ### Step  6: 
 #### 1. On your Github page, click on your image/avatar in the upper right-hand corner, to show a panel of entries, click on Settings:
     
-![](avatar.png)
+![](./static/avatar.png)
 
 #### 2. In Settings click on SSH and GPG keys
     
-![](settings.png)
+![](./static/settings.png)
 
 #### 3. Click on New SSH Key
 
-![](new.png)
+![](./static/new.png)
 
 #### 4. Add a 1. Title, 2. Authentication Key, 3. paste the public key and 4. click Add SSH Key
 
-![](addsshkey.png)
+![](./static/addsshkey.png)
 
 
 ### Step  7:
