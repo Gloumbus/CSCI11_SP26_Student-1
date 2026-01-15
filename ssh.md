@@ -8,6 +8,9 @@ Adding your public key to github enables you to easily update your repository wi
 2. Enter the following, ensuring each step is completed successfully before continuing:
 
 ### Step  1: 
+
+**When you paste this command in the terminal, backspace over the email address and enter your own email address.**
+
 ```bash
 ssh-keygen -t ed25519 -C "username@email.com"
 ```

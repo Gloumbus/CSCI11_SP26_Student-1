@@ -42,16 +42,24 @@ git remote add origin git@github.com:username/CSCI11_Sp26_Student.git
 git branch -M main
 ```
 
-   4. Push the local branch *main* to your Github repository:
-```bash
-git push -u origin main
-```
 #### Important: For Step 4 to be successful, two things must be true:
-1. You have successfully [added your public key](./ssh.md) to your settings on github. Confirm with `ssh -T git@github.com`
+1. You must have successfully [added your public key](./ssh.md) to your settings on github. Confirm with `ssh -T git@github.com`
 2. Your origin must be correct. Confirm with `git remote -v` and it must respond with:
 ```bash
 origin  git@github.com:studentname/CSCI11_SP26_Student.git (fetch)
 origin  git@github.com:studentname/CSCI11_SP26_Student.git (push)
+```
+
+   4. Push the local branch *main* to your Github repository:
+```bash
+git push -u origin main
+```
+
+   5. You will need to configure your name and email address before attempting to commit any changes to your repository. Be sure to change the email address to your address and the name to your name.
+
+```bash
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
 ```
 
 ## Ongoing Operations:
@@ -122,4 +130,6 @@ CSCI11_Student/
         |── week11
 ```
 
+## Links
 
+* [Great resource on Git](https://git-scm.com/book)
