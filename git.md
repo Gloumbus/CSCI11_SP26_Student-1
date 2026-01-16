@@ -16,12 +16,14 @@ For *CSCI11 Spring 2026*, there are **two** repositories:
 
 ### 1. Clone this repository
 
-1. Go to the [CSCI11_Sp26_Student](https://github.com/lkoepsel/CSCI11_Sp26_Student) on my github.
-2. Click on the Green Code button. *See green arrow.*
+1. Open a Terminal session in VS Code, using *Termincal -> New Terminal*. Setup your screen so half of the screen is VS Code and the other half is your browser.
+1. Open anthor tab in your browser by right-clicking on this link [CSCI11_Sp26_Student](https://github.com/lkoepsel/CSCI11_Sp26_Student) and select on in *Open Link in New Tab*.
+2. In the new tab, click on the Green Code button. *See green arrow.*
 3. CLick on the double boxes at the end of the "*git@github....*" *See blue arrow*.
 ![](./static/doubleboxes.png). 
 4. In a terminal session in VS Code, enter `git clone ` and paste the address following the word *clone*, ensuring there is a space between *clone* and the address. Press *return*.
-5. Enter `cd CSCI11_Sp26_Student` to enter the directory.
+![](./static/git_clone.png)
+5. In the Terminal, enter `cd CSCI11_Sp26_Student` to enter the directory.
 
 ### 2. Create your **remote** repository in your **Github** account.
 
