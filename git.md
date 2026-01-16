@@ -91,82 +91,19 @@ Your session will look almost the same as the one below. The last commmand will 
 
 Your response on the last command will be similar to:
 ```bash
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 249 bytes | 249.00 KiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-To github.com:lkoepsel/test.git
+Enumerating objects: 74, done.
+Counting objects: 100% (74/74), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (42/42), done.
+Writing objects: 100% (74/74), 1.46 MiB | 15.25 MiB/s, done.
+Total 74 (delta 34), reused 69 (delta 32), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (34/34), done.
+To github.com:lkoepsel/CSCI11_SP26_Student.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 ```
 
-## Ongoing Operations:
-
-### To get the latest assignment, in the CSCI11_Instructor folder
-   1. To **sync** with *lkoepsel* (or class) updates:
-   ```bash
-   git pull
-   ```
-
-   2. To **update** your work on GitHub:
-   - Be sure to use the week-specific directories in the ```student``` directory then commit and push to your repository using VS Code Source Control or Terminal:
-   ```bash
-   git add -A # to add (stage) all of the changes
-   git commit -m "adding my changes for week 5" # to commit your changes
-   git push # to push your change to your repository on GitHub
-   ```
-
-## Overview
-
-Your directory structure must be the following:
-1. Repository Structure:
-   - Your top directory (*Documents, below*), might be *Desktop*, *OneDrive*, *MyDocuments* or something else.
-```
-Documents/
-├── CSCI11_Sp26_Instructor/ (Assignment repository)
-│   ├── C/
-│   ├── Digital_Design/
-│   ├── LC3/
-│       ├── week_5/
-│       ├── week_6/
-│   └── README.md
-│   └── .gitignore
-├── CSCI11_Sp26_Student/.  (Homework repository)
-│   ├── C/
-│   ├── Digital_Design/
-│       ├── week_2/
-│       ├── week_3/
-│   ├── LC3/
-│       ├── week_5/
-│       ├── week_6/
-│   └── C/
-│   └── README.md
-│   └── .gitignore
-```
-
-
-
-## Assignments for CSCI11 Computer Architectures
-
-The content in CSCI11 will cover three areas:
-* Digital Design
-* LC3 Assembly Language
-* C Language
-
-In this repository are three directories, which are labeled appropriately for the content. The weekly assignments will be placed in directories labeled by week in the appropriate content, looking similar to this:
-
-```
-CSCI11_Student/
-    ├── digital_design/
-        |── week2
-        |── week3
-    ├── LC3/
-        |── week5
-        |── week6
-    └── C/
-        |── week10
-        |── week11
-```
+### Go back to the main page and complete the rest of the assignment by updating the README
 
 ## Links
 
