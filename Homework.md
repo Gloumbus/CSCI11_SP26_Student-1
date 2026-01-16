@@ -8,13 +8,12 @@
 ```bash
 cd CSCI11_Sp26_Instructor
 git pull
-cp -r week_2/ ../CSCI11_Sp26_Student/week_2
+cp -r week_2/ ../CSCI11_Sp26_Student/
 ```
 
 2. Go to your repository to begin work on the assignment:
 ```bash
-cd ..
-cd CSCI11_Sp26_Student/week_2
+cd ../CSCI11_Sp26_Student/week_2
 ```
 
 3. Once completed **OR** you have a question, **update** your work on GitHub:

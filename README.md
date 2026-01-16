@@ -17,6 +17,7 @@ Follow these instructions, to properly setup your repository for this class:
 3. Match the heading levels:
     * **README**.md is H1
     * **Questions...**, **Homework...**, and **My Successful...** are H2
+4. In the heading **Instructions...Homework**, the word "Homework" is a link to local file homework.md
 4. The table is created using a markdown table:
     * **Week** numbers are right-justified
     * **Assignments** are centered
