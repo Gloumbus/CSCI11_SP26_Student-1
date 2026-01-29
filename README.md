@@ -1,5 +1,5 @@
 # Dany Garcia Repository for CSCI11
-## Instructions for Updating [homework](./homework.md)
+## Instructions for Updating [homework](./Homework.md)
 ```bash
 git add -A # to add (stage) all of the changes
 git command -m "adding my changes for week 5" # to commit your changes
